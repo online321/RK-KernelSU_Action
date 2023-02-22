@@ -7,15 +7,16 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'Rohail33/RealKing-kernel-SM8250'
+        default: 'EmanuelCN/kernel_xiaomi_sm8250'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
-        default: 'munch-mi'
+        default: 'staging'
+
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'vendor/munch_defconfig'
+        default: 'vendor/aliton_defconfig'
       TARGET_ARCH:
         description: 'Target ARCH'
         required: true
