@@ -31,8 +31,8 @@ on:
         default: 'https://github.com/ZyCromerZ/Clang/releases/download/17.0.0-20230217-release/Clang-17.0.0-20230217.tar.gz'
       BUILD_EXTRA_COMMAND:
         description: 'Extra build commands(e.g. LLVM=1 LLVM_IAS=1)'
-        required: false
-        default: 'NM=llvm-nm OBJDUMP=llvm-objdump STRIP=llvm-strip'
+        required: true
+        default: 'NM=llvm-nm LLVM=1 LLVM_IAS=1'
       USE_KPROBES:
         description: 'Use Kprobes'
         required: false
