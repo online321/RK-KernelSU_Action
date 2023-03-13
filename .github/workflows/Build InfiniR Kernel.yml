@@ -16,7 +16,7 @@ on:
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'vendor/aliton_defconfig'
+        default: 'vendor/alioth_defconfig'
       TARGET_ARCH:
         description: 'Target ARCH'
         required: true
